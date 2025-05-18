@@ -1,12 +1,23 @@
-import Home from "./pages/Home";
+import { BrowserRouter as Router } from "react-router-dom";
+import { ConfigProvider } from "antd";
+
 import "./styles.css";
+import { AppRoutes } from "./AppRoutes";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <Home />
+      <ConfigProvider
+        theme={{
+          token: {
+            colorPrimary: "#4E60FF ", // Ant Design green
+          },
+        }}
+      >
+        <Router>
+          <AppRoutes />
+        </Router>
+      </ConfigProvider>
     </div>
   );
 }

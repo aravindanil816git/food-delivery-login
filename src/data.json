@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Green Leaf Bistro",
+    "dishes": [
+      { "name": "Vegan", "icon": "🥗" },
+      { "name": "Desserts", "icon": "🍰" },
+      { "name": "Pizza", "icon": "🍕" }
+    ],
+    "timeForDelivery": "30-40 min",
+    "isFeatured": true
+  },
+  {
+    "name": "Urban Grill House",
+    "dishes": [
+      { "name": "BBQ", "icon": "🍖" },
+      { "name": "Burger", "icon": "🍔" },
+      { "name": "Desserts", "icon": "🍰" }
+    ],
+    "timeForDelivery": "25-35 min",
+    "isFeatured": false
+  },
+  {
+    "name": "Sushi Express",
+    "dishes": [
+      { "name": "Sushi", "icon": "🍣" },
+      { "name": "Desserts", "icon": "🍰" }
+    ],
+    "timeForDelivery": "20-30 min",
+    "isFeatured": true
+  },
+  {
+    "name": "Pizza Palace",
+    "dishes": [
+      { "name": "Pizza", "icon": "🍕" },
+      { "name": "Burger", "icon": "🍔" },
+      { "name": "Desserts", "icon": "🍰" }
+    ],
+    "timeForDelivery": "15-25 min",
+    "isFeatured": false
+  },
+  {
+    "name": "Vegan Delight",
+    "dishes": [
+      { "name": "Vegan", "icon": "🥗" },
+      { "name": "Desserts", "icon": "🍰" }
+    ],
+    "timeForDelivery": "20-30 min",
+    "isFeatured": true
+  },
+  {
+    "name": "Burger Town",
+    "dishes": [
+      { "name": "Burger", "icon": "🍔" },
+      { "name": "Desserts", "icon": "🍰" }
+    ],
+    "timeForDelivery": "10-20 min",
+    "isFeatured": false
+  }
+]

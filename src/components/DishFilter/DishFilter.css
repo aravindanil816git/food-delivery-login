@@ -1,0 +1,45 @@
+.dish-filter-row {
+  margin-top: 32px;
+}
+
+.dish-filter-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.dish-filter-card {
+  width: 160px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  transition: border 0.2s, background 0.2s;
+}
+
+.dish-filter-card .ant-card-body {
+  padding: 16px;
+}
+
+.dish-filter-card.selected {
+  background-color: #f3f4ff;
+  border: 2px solid #4e60ff;
+}
+
+.dish-filter-card:hover {
+  background-color: #f3f4ff;
+  border: 2px solid #4e60ff;
+}
+
+.dish-filter-card-icon {
+  font-size: 24px;
+}
+
+.dish-filter-card-name {
+  color: #000;
+  transition: color 0.2s;
+}
+
+.dish-filter-card.selected .dish-filter-card-name {
+  color: #4e60ff;
+}
