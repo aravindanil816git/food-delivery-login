@@ -1,4 +1,4 @@
-import { Dish } from "./Dish";
+import type { Dish } from "./Dish";
 
 export type Restaurant = {
   name: string;

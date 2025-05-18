@@ -1,7 +1,8 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import data from "../data.json";
-import { Dish } from "../types/Dish";
-import { Restaurant } from "../types/Restaurant";
+import type { Dish } from "../types/Dish";
+import type { Restaurant } from "../types/Restaurant";
 
 export function useUniqueRestaurantsByDishFilter(dishes: Dish[]): Restaurant[] {
   if (!data) return [];

@@ -1,7 +1,7 @@
 import { Row, Col, Card } from "antd";
 import { useUniqueRestaurantsByDishFilter } from "../../hooks/useUniqueRestaurantsByDishFilter";
 import "./RestaurantList.css";
-import { Dish } from "../../types/Dish";
+import type { Dish } from "../../types/Dish";
 
 const RestaurantList = ({
   selectedDishes,

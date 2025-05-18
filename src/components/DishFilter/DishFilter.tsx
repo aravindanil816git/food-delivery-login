@@ -2,7 +2,7 @@ import { Row, Col, Card } from "antd";
 import { useState } from "react";
 import { useUniqueDishes } from "../../hooks/useUniqueDishes";
 import "./DishFilter.css";
-import { Dish } from "../../types/Dish";
+import type { Dish } from "../../types/Dish";
 
 const DishFilter = ({ onSelectionChange }: { onSelectionChange: (selectedDishes: Dish[]) => void }) => {
     const dishes: Dish[] = useUniqueDishes();
