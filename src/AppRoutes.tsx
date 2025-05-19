@@ -2,26 +2,30 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
 import { LoginSignup } from "./pages/LoginSignup/LoginSignup";
 import { Navbar } from "./components/Navbar/Navbar";
+import { AuthProvider } from "./providers/AuthProvider";
+import { ProtectedRoute } from "./components/ProtectedRoute";
 
 function AppRoutes() {
   const location = useLocation();
   const hideNavbar = location.pathname === "/login";
 
   return (
-    <>
+    <AuthProvider>
       {!hideNavbar && <Navbar />}
       <Routes>
         <Route path="/login" element={<LoginSignup />} />
         <Route
           path="/"
           element={
-            <PageContainer>
-              <Home />
-            </PageContainer>
+            <ProtectedRoute>
+              <PageContainer>
+                <Home />
+              </PageContainer>
+            </ProtectedRoute>
           }
         />
       </Routes>
-    </>
+    </AuthProvider>
   );
 }
 
