@@ -7,7 +7,7 @@ A modern food delivery application implemented using React, TypeScript, Vite, an
 The design prototype for the Food Delivery App can be viewed on Figma:  
 [Food Delivery App - Figma Design](https://www.figma.com/design/Mtg8ZbQ8ePQjfRYSycJLBX/Food-Delivery-UI---Free--Copy-?node-id=4-881&t=6mxMqQskch84qLPn-0)
 
-Live URL: https://vercel.com/aravindanil816gits-projects/food-store-iion
+Live URL: https://food-store-iion.vercel.app/login
 
 > **Notes**:
 >
