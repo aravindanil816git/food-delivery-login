@@ -26,3 +26,37 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.signup-container {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.brand-logo {
+  height: 40px;
+  margin-right: 20px;
+  position: absolute;
+  top: 20px;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    grid-template-columns: 1fr;
+  }
+
+  .login-form-container {
+    max-width: 90%;
+    align-items: left;
+  }
+
+  .carousal-container {
+    display: none;
+  }
+
+  .login-container {
+    margin-top: 20px;
+  }
+}
