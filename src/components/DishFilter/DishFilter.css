@@ -2,14 +2,7 @@
   margin-top: 32px;
 }
 
-.dish-filter-list {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
 .dish-filter-card {
-  width: 160px;
   text-align: center;
   cursor: pointer;
   border: 1px solid #d9d9d9;

@@ -1,0 +1,18 @@
+.carousel-image {
+  width: 50%;
+}
+
+.carousel-caption {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-title,
+.carousel-subtitle {
+  color: #fff !important;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: -60px;
+}

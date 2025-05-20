@@ -1,0 +1,14 @@
+.featured-ad {
+  height: 188px;
+  text-align: center;
+  line-height: 188px;
+  border-radius: 16px;
+}
+
+.featured-ad-1 {
+  background: #f3f4ff;
+}
+
+.featured-ad-2 {
+  background: #fff3ed;
+}

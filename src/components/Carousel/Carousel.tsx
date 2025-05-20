@@ -1,4 +1,5 @@
 import { Carousel as ImageCarousel, Row, Typography } from "antd";
+import "./Carousel.css";
 
 const Carousel = ({ data }: CarouselProps) => {
   return (
@@ -6,13 +7,13 @@ const Carousel = ({ data }: CarouselProps) => {
       {data.map((image, index) => (
         <div key={index}>
           <Row justify="center">
-            <img src={image.src} alt={image.alt} style={{ width: "50%" }} />
+            <img src={image.src} alt={image.alt} className="carousel-image" />
           </Row>
-          <div style={{ maxWidth: "50%", margin: "0 auto", textAlign: "center" }}>
-            <Typography.Title level={3} style={{ color: "#fff" }}>
+          <div className="carousel-caption">
+            <Typography.Title level={3} className="carousel-title">
               {image.title}
             </Typography.Title>
-            <Typography.Text style={{ color: "#fff" }}>
+            <Typography.Text className="carousel-subtitle">
               {image.subTitle}
             </Typography.Text>
           </div>

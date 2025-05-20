@@ -29,3 +29,24 @@
   border-radius: 4px;
   outline: none;
 }
+
+.navbar-hamburger {
+  display: none;
+}
+
+.navbar-menu-desktop {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navbar-search-input {
+    display: none;
+  }
+  .navbar-menu-desktop {
+    display: none;
+  }
+
+  .navbar-hamburger {
+    display: block;
+  }
+}
