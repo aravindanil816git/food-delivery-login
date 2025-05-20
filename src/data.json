@@ -7,7 +7,8 @@
       { "name": "Pizza", "icon": "🍕" }
     ],
     "timeForDelivery": "30-40 min",
-    "isFeatured": true
+    "isFeatured": true,
+    "imageUrl": "./restaurant1.jpg"
   },
   {
     "name": "Urban Grill House",
@@ -17,7 +18,8 @@
       { "name": "Desserts", "icon": "🍰" }
     ],
     "timeForDelivery": "25-35 min",
-    "isFeatured": false
+    "isFeatured": false,
+    "imageUrl": "./restaurant2.jpg"
   },
   {
     "name": "Sushi Express",
@@ -26,7 +28,8 @@
       { "name": "Desserts", "icon": "🍰" }
     ],
     "timeForDelivery": "20-30 min",
-    "isFeatured": true
+    "isFeatured": true,
+    "imageUrl": "./restaurant3.jpg"
   },
   {
     "name": "Pizza Palace",
@@ -36,7 +39,8 @@
       { "name": "Desserts", "icon": "🍰" }
     ],
     "timeForDelivery": "15-25 min",
-    "isFeatured": false
+    "isFeatured": false,
+    "imageUrl": "./restaurant4.jpg"
   },
   {
     "name": "Vegan Delight",
@@ -45,7 +49,8 @@
       { "name": "Desserts", "icon": "🍰" }
     ],
     "timeForDelivery": "20-30 min",
-    "isFeatured": true
+    "isFeatured": true,
+    "imageUrl": "./restaurant5.jpg"
   },
   {
     "name": "Burger Town",
@@ -54,6 +59,7 @@
       { "name": "Desserts", "icon": "🍰" }
     ],
     "timeForDelivery": "10-20 min",
-    "isFeatured": false
+    "isFeatured": false,
+    "imageUrl": "./restaurant6.jpg"
   }
 ]

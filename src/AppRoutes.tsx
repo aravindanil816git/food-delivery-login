@@ -11,13 +11,13 @@ function AppRoutes() {
 
   return (
     <AuthProvider>
-      {!hideNavbar && <Navbar />}
       <Routes>
         <Route path="/login" element={<LoginSignup />} />
         <Route
           path="/"
           element={
             <ProtectedRoute>
+              {!hideNavbar && <Navbar />}
               <PageContainer>
                 <Home />
               </PageContainer>

@@ -6,4 +6,5 @@ export type Restaurant = {
   timeForDelivery: string;
   isFeatured: boolean;
   isOpen?: boolean;
+  imageUrl: string;
 };

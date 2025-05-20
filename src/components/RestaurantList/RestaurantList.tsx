@@ -25,19 +25,26 @@ const RestaurantList = ({
             }}
             onMouseLeave={(e) => {
               (e.currentTarget as HTMLElement).style.borderColor = "rgb(238, 238, 238)";
-              (e.currentTarget as HTMLElement).style.boxShadow = "none";
-            }}
-          >
-            <div
-              style={{
-                background: "#f0f0f0",
-                height: "160px",
-                textAlign: "center",
-                lineHeight: "160px",
+                (e.currentTarget as HTMLElement).style.boxShadow = "none";
               }}
-            >
-              Image 2
-            </div>
+              >
+              <div
+                style={{
+                backgroundImage: `url(${restaurant.imageUrl})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                height: "160px",
+                position: "relative",
+                }}
+              >
+                {restaurant.isFeatured && (
+                <div
+                  className="restaurant-featured-label"
+                >
+                  FEATURED
+                </div>
+                )}
+              </div>
             <div className="restaurant-card-content">
               <div className="restaurant-card-title">{restaurant.name}</div>
               <div className="restaurant-card-time">

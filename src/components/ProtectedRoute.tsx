@@ -1,15 +1,16 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 import { useAuth } from "../providers/AuthProvider";
+import { Spin } from "antd";
 
-type Props = {
+type Page = {
   children: React.ReactNode;
 };
 
-export const ProtectedRoute = ({ children }: Props) => {
+export const ProtectedRoute = ({ children }: Page) => {
   const { isAuthenticated } = useAuth();
   if (!isAuthenticated) {
     return <Navigate to="/login" replace />;
   }
-  return <>{children}</>;
+  return isAuthenticated ? <>{children}</> : <Spin />;
 };

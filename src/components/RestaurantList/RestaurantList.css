@@ -6,6 +6,18 @@
   transition: box-shadow 0.3s, border-color 0.3s;
   border-color: rgb(238, 238, 238);
   box-shadow: none;
+  border-radius: 10px;
+}
+
+.restaurant-featured-label {
+  position: absolute;
+  right: 0;
+  background-color: #4e60ff;
+  color: #fff;
+  padding: 4px 16px;
+  font-weight: bold;
+  font-size: 11px;
+  border-bottom-left-radius: 10px;
 }
 
 .restaurant-card .ant-card-body {

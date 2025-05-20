@@ -137,8 +137,8 @@ const Login = ({ onLoginRedirect }: LoginProps) => {
             Forgot password?
           </Button>
         </div>
-
-        <div className="signup-container">
+      </div>
+      <div className="signup-container">
           <p>
             {!signUpMode ? "Don't have an account" : "Already have an account?"}
             <Button
@@ -153,7 +153,6 @@ const Login = ({ onLoginRedirect }: LoginProps) => {
             </Button>
           </p>
         </div>
-      </div>
     </>
   );
 };

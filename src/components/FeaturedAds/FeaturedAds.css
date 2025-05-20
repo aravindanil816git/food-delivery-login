@@ -1,8 +1,8 @@
 .featured-ad {
   height: 188px;
   text-align: center;
-  line-height: 188px;
   border-radius: 16px;
+  display: flex;
 }
 
 .featured-ad-1 {
@@ -11,4 +11,69 @@
 
 .featured-ad-2 {
   background: #fff3ed;
+}
+
+.featured-ad-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+}
+
+.featured-ad-title-offer-category-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.featured-ad-title {
+  margin-bottom: 0;
+  color: #2b2b43 !important;
+  margin-top: 0;
+}
+
+.featured-ad-category {
+  margin-top: 8px;
+  color: #83859c;
+}
+
+.featured-ad-offer {
+  margin-top: 16px !important;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .featured-ad {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .featured-ad-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .featured-ad-title {
+    margin-top: 0;
+    order: 2;
+  }
+
+  .featured-ad-offer {
+    margin-top: 16px !important;
+    text-align: left;
+    order: 1;
+  }
+  .featured-ad-title-offer-category-row {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  .featured-ad-category {
+    margin-top: 0;
+  }
+  .featured-ad-offer {
+    margin-top: 12px !important;
+  }
 }

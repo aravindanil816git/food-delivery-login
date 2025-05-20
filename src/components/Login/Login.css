@@ -29,3 +29,7 @@
 .signup-link {
   color: #4e60ff !important;
 }
+
+.login-field-container {
+  width: 100%;
+}
