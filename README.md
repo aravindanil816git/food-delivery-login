@@ -7,6 +7,14 @@ A modern food delivery application implemented using React, TypeScript, Vite, an
 The design prototype for the Food Delivery App can be viewed on Figma:  
 [Food Delivery App - Figma Design](https://www.figma.com/design/Mtg8ZbQ8ePQjfRYSycJLBX/Food-Delivery-UI---Free--Copy-?node-id=4-881&t=6mxMqQskch84qLPn-0)
 
+Live URL: https://vercel.com/aravindanil816gits-projects/food-store-iion
+
+> **Notes**:
+>
+> - New users can sign up and log in and access the home page.
+> - The "Logout" feature and "Keep me logged in" functionality are not implemented. A page refresh will sign the user out.
+> - Responsiveness is handled, but it is recommended to refresh the page before switching device modes.
+
 ## Features Implemented
 
 - **Signup/Sign-in Page**:
